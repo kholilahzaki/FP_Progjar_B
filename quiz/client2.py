@@ -37,7 +37,14 @@ thread_cli.start()
 
 try:
     while True:
-        type = input("press enter to continue or type chat\n")
+        type = input("Guess The Lyrics Challenge\n"
+                     "How to Play :\n"
+                     "1. Pilih nomor soal\n"
+                     "2. Pilih jawaban yang menurutmu benar\n"
+                     "3. Jangan memilih soal yang sudah dipilih oleh pemain lain\n"
+                     "4. Pemain dengan skor terbanyak dari 3 kali permainan adalah pemenangnya\n"
+                     "--SELAMAT BERMAIN--"
+                     "Press enter to continue or type chat\n")
         if type != "chat":
             num = input("Pilih angka 0 - 16 atau masukkan jawaban \n")
             if num == "":
