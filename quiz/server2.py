@@ -2,7 +2,6 @@ import socket
 import sys
 import threading
 
-x = 0
 def read_msg(clients, friends, sock_cli, addr_cli, src_uname):
     while True:
         data = sock_cli.recv(65535)
